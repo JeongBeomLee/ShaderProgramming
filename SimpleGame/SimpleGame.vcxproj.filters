@@ -61,5 +61,11 @@
     <None Include="Shaders\ParticleCloud.vs">
       <Filter>소스 파일\Shaders</Filter>
     </None>
+    <None Include="Shaders\FSSandbox.fs">
+      <Filter>소스 파일\Shaders</Filter>
+    </None>
+    <None Include="Shaders\FSSandbox.vs">
+      <Filter>소스 파일\Shaders</Filter>
+    </None>
   </ItemGroup>
 </Project>

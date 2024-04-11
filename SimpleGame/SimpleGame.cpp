@@ -39,7 +39,8 @@ void RenderSceneTimer(int value)
 	// Renderer Test
 	//g_Renderer->DrawTest();
 	//g_Renderer->DrawParticle();
-	g_Renderer->DrawParticleCloud();
+	//g_Renderer->DrawParticleCloud();
+	g_Renderer->DrawFSSandbox();
 
 	glutSwapBuffers();
 
