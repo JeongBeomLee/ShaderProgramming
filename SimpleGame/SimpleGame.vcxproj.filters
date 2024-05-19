@@ -30,6 +30,9 @@
     <ClInclude Include="Renderer.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="LoadPng.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -39,6 +42,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Renderer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadPng.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -55,16 +61,40 @@
     <None Include="Shaders\Particle.vs">
       <Filter>소스 파일\Shaders</Filter>
     </None>
-    <None Include="Shaders\ParticleCloud.fs">
+    <None Include="Shaders\ParticleClould.fs">
       <Filter>소스 파일\Shaders</Filter>
     </None>
-    <None Include="Shaders\ParticleCloud.vs">
+    <None Include="Shaders\ParticleClould.vs">
       <Filter>소스 파일\Shaders</Filter>
     </None>
-    <None Include="Shaders\FSSandbox.fs">
+    <None Include="Shaders\FSsandbox.fs">
       <Filter>소스 파일\Shaders</Filter>
     </None>
-    <None Include="Shaders\FSSandbox.vs">
+    <None Include="Shaders\FSsandbox.vs">
+      <Filter>소스 파일\Shaders</Filter>
+    </None>
+    <None Include="Shaders\GridMesh.fs">
+      <Filter>소스 파일\Shaders</Filter>
+    </None>
+    <None Include="Shaders\GridMesh.vs">
+      <Filter>소스 파일\Shaders</Filter>
+    </None>
+    <None Include="Shaders\TextureSandBox.fs">
+      <Filter>소스 파일\Shaders</Filter>
+    </None>
+    <None Include="Shaders\TextureSandBox.vs">
+      <Filter>소스 파일\Shaders</Filter>
+    </None>
+    <None Include="Shaders\Texture.fs">
+      <Filter>소스 파일\Shaders</Filter>
+    </None>
+    <None Include="Shaders\Texture.vs">
+      <Filter>소스 파일\Shaders</Filter>
+    </None>
+    <None Include="Shaders\AlphaClear.fs">
+      <Filter>소스 파일\Shaders</Filter>
+    </None>
+    <None Include="Shaders\AlphaClear.vs">
       <Filter>소스 파일\Shaders</Filter>
     </None>
   </ItemGroup>
