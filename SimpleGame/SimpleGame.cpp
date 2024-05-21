@@ -16,8 +16,8 @@ but WITHOUT ANY WARRANTY.
 #include "Renderer.h"
 
 Renderer *g_Renderer = NULL;
-int g_ScreenSizeX = 500;
-int g_ScreenSizeY = 500;
+int g_ScreenSizeX = 1024;
+int g_ScreenSizeY = 1024;
 void RenderScene()
 {
 	//glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);

@@ -174,10 +174,14 @@
   <ItemGroup>
     <None Include="Shaders\AlphaClear.fs" />
     <None Include="Shaders\AlphaClear.vs" />
+    <None Include="Shaders\G_Blur.vs" />
     <None Include="Shaders\FSsandbox.fs" />
     <None Include="Shaders\FSsandbox.vs" />
     <None Include="Shaders\GridMesh.fs" />
     <None Include="Shaders\GridMesh.vs" />
+    <None Include="Shaders\G_HBlur.fs" />
+    <None Include="Shaders\Merge.fs" />
+    <None Include="Shaders\Merge.vs" />
     <None Include="Shaders\Particle.fs" />
     <None Include="Shaders\Particle.vs" />
     <None Include="Shaders\ParticleClould.fs" />
@@ -188,6 +192,7 @@
     <None Include="Shaders\Texture.vs" />
     <None Include="Shaders\TextureSandBox.fs" />
     <None Include="Shaders\TextureSandBox.vs" />
+    <None Include="Shaders\G_VBlur.fs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
